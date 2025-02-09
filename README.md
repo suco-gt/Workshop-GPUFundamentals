@@ -1,4 +1,4 @@
-# Welcome to Supercomputing@GT Workshop II: GPU/CUDA Fundamentals 
+# Welcome to Supercomputing@GT Workshop: GPU/CUDA Fundamentals 
 
 ### What is Supercomputing@GT?
 As one of the nation's most well-renowned research universities in high-performance computing (HPC), Supercomputing@GT seeks to educate Georgia Tech students on HPC's immense presence in research and industry alike. Today, we're hosting a workshop on GPU & CUDA fundamentals to help students learn how to utilize GPUs at Georgia Tech and elsewhere to develop the technologies of tomorrow.
