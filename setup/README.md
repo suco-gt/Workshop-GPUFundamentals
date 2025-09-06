@@ -1,6 +1,6 @@
 # Setup
 
-## Log onto Compute Node
+## Log Onto Compute Node
 
 If you haven't already, please make sure to download the [GT VPN](https://gatech.service-now.com/home?id=kb_article_view&sysparm_article=KB0042139) and to verify that you have an ``ssh`` installation. After you've done this, please enter your terminal environment and run the following code, where ``<username>`` is your GT username (ex. gburdell3).
 ```bash
@@ -42,9 +42,9 @@ If the repository is present, this should print the repository name. If not, ple
 
 At this point, you've successfully logged into the cluster. 
 
-## Open a GPU Node
+## Log Onto a GPU Node
 
-Once you've logged onto the cluster, run the following command to verify that you're able to open a GPU node. Note that finding an available node may not be possible, so the process may take a while.
+Once you've logged onto the cluster, run the following command to verify that you're able to log into a GPU node. Note that finding an available node may not be immediately possible, so the process may take a while.
 
 ```
 salloc --nodes=1 --ntasks-per-node=1 -G1 --time=0:15:00
@@ -66,7 +66,7 @@ Job name:  interactive
 Partition: pace-gpu,ice-gpu
 ---------------------------------------
 ```
-Afterwards, so that you don't occupy a login node that you don't intend to use, simply exit via the following command.
+Afterwards, so that you don't occupy a GPU node that you don't intend to use, simply exit via the following command.
 ```
 exit
 ```
