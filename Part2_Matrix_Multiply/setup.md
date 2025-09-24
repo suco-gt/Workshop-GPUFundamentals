@@ -6,7 +6,7 @@ Once you are in, load appropriate modules:
 ```
 module load anaconda3/2022.05.0.1 
 module load cuda/11
-module load gcc/10
+module load gcc/12.3.0
 module load intel-oneapi-mkl
 source ${INTEL_ONEAPI_MKLROOT}/setvars.sh
 ```
