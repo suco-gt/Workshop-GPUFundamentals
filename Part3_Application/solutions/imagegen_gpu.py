@@ -1,6 +1,5 @@
 import numpy as np
 from numba import cuda
-import matplotlib.pyplot as plt
 import time
 from save_image import save_image
 
